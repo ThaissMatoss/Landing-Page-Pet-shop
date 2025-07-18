@@ -1,0 +1,98 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-style: arial;
+    background-color:#1800ad;
+    color: #fff;
+    
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff;
+    padding: 20px 60px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:#1800ad;;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #1800ad;
+    font-size: 25px;
+   font-style: arial;
+
+  }
+  
+
+  div {
+    padding: 10px;
+  }
+  
+  
+  /* HERO SECTION */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 40px;
+  }
+  
+  .hero-texto {
+    flex: 1;
+    padding-right: 20px;
+    margin: 5%;
+  }
+  
+
+  
+  .hero-texto h1 {
+    font-size: 50px;
+    margin: 10px 0;
+    font-weight: bold;  
+    font-style: italic;            /* Texto em itálico */
+         
+  }
+  
+  .hero-texto p {
+    font-size: 50px;
+    margin: 50px 0;
+    max-width: 500px;
+  }
+ 
+  button {
+    margin-top: 20px;
+    width: 100px;
+    height: 55px;    
+    border: none;
+    background-color:#fff	;
+    color:#1800ad;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-style: italic;
+  }
+  
+  button:hover {
+    background-color:#0be3ff3a;
+  }
