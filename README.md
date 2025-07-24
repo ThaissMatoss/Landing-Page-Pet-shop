@@ -31,4 +31,4 @@ Não representa uma empresa real.
 
 ---
 
-Feito com por Thaís Matos
+Feito por Thaís Matos
